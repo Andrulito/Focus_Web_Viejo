@@ -1,0 +1,130 @@
+
+body {
+    background-image: url(../Imagenes/BlackAndBlue.jpg); /* Reemplaza con la ruta de tu imagen de fondo */
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
+    background-attachment: fixed; /* Hace que la imagen de fondo sea estática */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos generales para el navbar fijo */
+.navbar {
+    background-color: green;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center; /* Centra los elementos y agrega espacio entre ellos */
+    align-items: center;
+    z-index: 1000;
+}
+/* Contenedor para centrar los elementos en el navbar */
+.nav-content {
+    background-color: blue;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Estilos para el logo */
+.logo img {
+    width: 250px;
+}
+
+/* Estilos para la lista de navegación y elementos de la lista */
+.nav-list {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    color: white;
+    transition: color 0.3s;
+}
+
+/* Estilos para los enlaces del navbar */
+.nav-list a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+/* Cambiar el color del enlace al pasar el mouse por encima */
+.nav-list a:hover {
+    color: black;
+}
+.nav-list li {
+    margin-right: 20px;
+}
+
+
+
+/* Estilos para el submenu de "Surf Training" */
+.surf-training .submenu {
+    display: none;
+    position: absolute;
+    background-color: rgb(82,179,200);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 4px 16px 16px 16px;
+}
+
+.surf-training .submenu li {
+    margin-right: 15px; /* Añade padding a la derecha de cada elemento (ajusta según tus preferencias) */
+    list-style: none; /* Elimina las viñetas */
+}
+
+/* Mostrar el submenu y el símbolo personalizado al pasar el mouse sobre "Surf Training" */
+.surf-training:hover .submenu {
+    display: block;
+}
+
+/* Estilos para el símbolo personalizado */
+.custom-symbol {
+    font-size: 14px; /* Ajusta el tamaño del símbolo según tus preferencias */
+    margin-left: 5px; /* Ajusta el espaciado entre el símbolo y el texto */
+}
+
+/* Estilos para los elementos de la lista en el submenu de "Surf Training" */
+.surf-training .submenu li {
+    padding-right: 15px; /* Añade padding a la derecha de cada elemento (ajusta según tus preferencias) */
+    list-style: none; /* Elimina las viñetas */
+
+    /* Establecer imagen de fondo para cada elemento */
+    background-image: url('../Imagenes/flecha.png'); /* Ruta de la imagen */
+    background-repeat: no-repeat;
+    background-position: left center; /* Alinea la imagen a la izquierda y al centro */
+    background-size: 24px 20px; /* Tamaño de la imagen (ajusta según tus preferencias) */
+    padding-left: 30px; /* Espaciado a la izquierda para acomodar la imagen (ajusta según tus necesidades) */
+}
+
+
+
+
+
+
+
+
+
+/* Estilos para el contenido principal */
+/* Estilos para el contenido principal */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: transparent;
+    margin-top: 0; /* Ajusta el margen superior a 0 para que comience desde la parte superior */
+}
+
+/* Estilos para el contenedor de la imagen */
+.image-container {
+    width: 75%;
+    text-align: center;
+}
+
+/* Estilos para la imagen */
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
