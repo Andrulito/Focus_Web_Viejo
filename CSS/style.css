@@ -239,3 +239,17 @@ main {
     transform: scale(1.05); /* Aumenta ligeramente el tamaño */
     transition: transform 0.3s ease; /* Efecto suave */
 }
+
+
+footer {
+    background-color: black; /* O el color que prefieras */
+    padding: 20px 0; /* Ajusta el padding según necesites */
+    text-align: center; /* Centra el contenido del footer */
+}
+
+.footer-logo img {
+    width: auto; /* Ajusta esto según el tamaño deseado del logo */
+    height: 500%; /* Ajusta esto según el tamaño deseado del logo */
+    /* Asegúrate de que el logo no sea demasiado grande para dispositivos móviles */
+}
+
