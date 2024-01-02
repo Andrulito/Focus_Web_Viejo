@@ -134,6 +134,7 @@ main {
 /* Estilos para el contenedor de la imagen */
 .image-container {
     width: 90%;
+    margin-top: 50px;
     text-align: center;
 }
 
@@ -180,7 +181,7 @@ main {
 .fila-de-imagenes {
     background-color: transparent;
     width: 90%;
-    margin-top: 30px;
+    margin-top: 50px;
     margin-left: 5%;
     display: flex;
     justify-content: space-between; /* Centra las imágenes en el eje horizontal */
@@ -219,7 +220,7 @@ main {
     height: auto;
     display: block;
     border-radius: 150px;
-    margin-top: 10px;
+    margin-top: 50px;
     border: 4px solid hsl(205,89%,45%); /* Cambia #FF5733 al color que prefieras */
 }
 .boton-inscribirse {
@@ -242,14 +243,43 @@ main {
 
 
 footer {
-    background-color: black; /* O el color que prefieras */
-    padding: 20px 0; /* Ajusta el padding según necesites */
-    text-align: center; /* Centra el contenido del footer */
+    background-color: black; /* Color de fondo del footer */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
 }
 
 .footer-logo img {
     width: auto; /* Ajusta esto según el tamaño deseado del logo */
-    height: 500%; /* Ajusta esto según el tamaño deseado del logo */
-    /* Asegúrate de que el logo no sea demasiado grande para dispositivos móviles */
+    height: 20%; /* Ajusta esto según el tamaño deseado del logo */
 }
 
+.footer-contact {
+    display: flex;
+    flex-direction: column; /* Organiza los elementos de contacto verticalmente */
+    align-items: flex-start; /* Alinea los elementos a la izquierda */
+}
+
+.social-media-icons {
+    display: flex; /* Alinea los íconos de redes sociales en línea */
+    gap: 10px; /* Espacio entre los íconos */
+}
+
+.social-media-icons a img {
+    width: auto; /* Ajusta el tamaño de los íconos */
+    height: 150px;
+}
+
+.Wine_Bar img{
+    width: auto; /* Ajusta el tamaño de los íconos */
+    height: 500px;
+}
