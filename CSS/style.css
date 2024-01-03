@@ -31,7 +31,7 @@ header {
     width: 100%; /* Adjust this to match the .image-container if it has a specific width */
     
     display: flex;
-    margin-top: 10px;
+    
     margin-left: 1px;   
     vertical-align: middle;
     justify-content: space-between; /* Center the contents */
@@ -47,7 +47,7 @@ header {
 
 /* Estilos para el logo */
 .logo img {
-    width: 50%;
+    width: 30%;
     background-color: transparent;
 }
 
@@ -60,7 +60,7 @@ header {
     transition: color 0.3s;
     vertical-align: middle;
     font-family: 'Ciutadella';
-    font-size: 50px;
+    font-size: larger;
 }
 @font-face {
     font-family: 'Ciutadella';
@@ -94,7 +94,7 @@ header {
     background-color: rgb(82,179,200);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     padding: 10px;
-    border-radius: 4px 16px 16px 16px;
+    border-radius: 1% 7% 7% 7%;
 }
 
 .surf-training .submenu li {
@@ -134,7 +134,7 @@ main {
 /* Estilos para el contenedor de la imagen */
 .image-container {
     width: 90%;
-    margin-top: 50px;
+    margin-top: 1%;
     text-align: center;
 }
 
@@ -143,21 +143,26 @@ main {
     width: 100%;
     height: auto;
     display: block;
-    border-radius: 90px 90px 200px 200px;
-    margin-top: 10px;
+    border-radius: 50px ;
+    margin-top: 0.5%;
 }
 
 /* Estilos contenedor 1*/
+/* Estilos para el contenedor de la imagen */
+.image-container2 {
+    width: 90%;
+    margin-top: 1%;
+    text-align: center;
+}
 
-
-
-
-
-/* Tres botones de focus pro, trip y coaching a distancia*/
-
-
-
-
+/* Estilos para contenedor 2 */
+.image-container2 img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 200px 200px 200px 200px;
+    margin-top: 10px;
+}
 
 /* Estilos para los enlaces que actúan como botones */
 .imagen-boton {
@@ -173,7 +178,7 @@ main {
     display: block; /* Asegura que la imagen ocupe todo el espacio del enlace */
     width: 100%; /* La imagen se escala para llenar el enlace */
     height: auto; /* Mantiene la proporción de la imagen */
-    border-radius: 150px;
+    border-radius: 15%;
     
 }
 
@@ -181,12 +186,11 @@ main {
 .fila-de-imagenes {
     background-color: transparent;
     width: 90%;
-    margin-top: 50px;
+    margin-top: 2%;
     margin-left: 5%;
     display: flex;
     justify-content: space-between; /* Centra las imágenes en el eje horizontal */
     align-items: center; /* Centra las imágenes en el eje vertical */
-    margin-bottom: 30px;
 }
 
 /* Ajusta este valor según el espacio que quieras entre los botones */
@@ -194,7 +198,7 @@ main {
     background-color: transparent;
     flex: 90; /* Distribuye el espacio disponible */
     width: 32%; /* Ajusta el ancho máximo de cada botón */
-    margin: 10px; /* Ajusta el margen si es necesario */
+    margin: 1%; /* Ajusta el margen si es necesario */
 }
 
 /* Añadir efecto al pasar el mouse por encima */
@@ -219,9 +223,9 @@ main {
     width: 100%;
     height: auto;
     display: block;
-    border-radius: 150px;
-    margin-top: 50px;
-    border: 4px solid hsl(205,89%,45%); /* Cambia #FF5733 al color que prefieras */
+    border-radius: 100px;
+    margin-top: 2%;
+    /*border: 4px solid hsl(205,89%,45%); /* Cambia #FF5733 al color que prefieras */
 }
 .boton-inscribirse {
     position: absolute;
@@ -242,44 +246,51 @@ main {
 }
 
 
-footer {
+.footer {
     background-color: black; /* Color de fondo del footer */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Tres columnas de igual tamaño */
+    justify-items: center; /* Centra los elementos horizontalmente en sus celdas */
+    align-items: center; /* Alinea los elementos verticalmente */
+    margin-top: 2%;
     margin-bottom: 80px;
+    width: 100%; /* Asegúrate de que ocupe todo el ancho */
 }
 
 .footer-content {
+    width: 90%; /* Ocupa todo el ancho del footer */
+    margin-left: 5%;
+    margin-top: 2%;
+    display: grid;
+    margin-bottom: 3%;
+    grid-template-columns: repeat(3, 1fr); /* Tres columnas de igual tamaño */
+    background-color: black;
+}
+
+.footer-logo{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 90%;
+    justify-content: center;
 }
 
-.footer-logo img {
-    width: auto; /* Ajusta esto según el tamaño deseado del logo */
-    height: 20%; /* Ajusta esto según el tamaño deseado del logo */
-}
-
-.footer-contact {
+.Wine_Bar{
     display: flex;
-    flex-direction: column; /* Organiza los elementos de contacto verticalmente */
-    align-items: flex-start; /* Alinea los elementos a la izquierda */
+    justify-content:flex-start;
 }
 
+.footer-logo img, .Wine_Bar img {
+    width: 50%; /* O un tamaño específico si es necesario */
+    height: auto; /* Ajusta esto según el tamaño deseado */
+}
+
+/* Estilos para los íconos de redes sociales */
 .social-media-icons {
-    display: flex; /* Alinea los íconos de redes sociales en línea */
-    gap: 10px; /* Espacio entre los íconos */
+    display: flex;
+    gap: 10px;
+    margin-left: 3%;
+    /*justify-content: center; /* Esto centrará los íconos dentro de su celda */
 }
 
 .social-media-icons a img {
-    width: auto; /* Ajusta el tamaño de los íconos */
-    height: 150px;
-}
-
-.Wine_Bar img{
-    width: auto; /* Ajusta el tamaño de los íconos */
-    height: 500px;
+    width: auto;
+    height: 50px;
 }
