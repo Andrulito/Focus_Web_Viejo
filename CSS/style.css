@@ -246,17 +246,14 @@ main {
 }
 
 
-.footer {
+footer{
     background-color: black; /* Color de fondo del footer */
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Tres columnas de igual tamaño */
-    justify-items: center; /* Centra los elementos horizontalmente en sus celdas */
-    align-items: center; /* Alinea los elementos verticalmente */
+    
+    
     margin-top: 2%;
     margin-bottom: 80px;
     width: 100%; /* Asegúrate de que ocupe todo el ancho */
 }
-
 .footer-content {
     width: 90%; /* Ocupa todo el ancho del footer */
     margin-left: 5%;
@@ -264,7 +261,6 @@ main {
     display: grid;
     margin-bottom: 3%;
     grid-template-columns: repeat(3, 1fr); /* Tres columnas de igual tamaño */
-    background-color: black;
 }
 
 .footer-logo{
@@ -278,7 +274,7 @@ main {
 }
 
 .footer-logo img, .Wine_Bar img {
-    width: 50%; /* O un tamaño específico si es necesario */
+    width: 40%; /* O un tamaño específico si es necesario */
     height: auto; /* Ajusta esto según el tamaño deseado */
 }
 
