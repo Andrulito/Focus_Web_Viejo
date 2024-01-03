@@ -248,8 +248,6 @@ main {
 
 footer{
     background-color: black; /* Color de fondo del footer */
-    
-    
     margin-top: 2%;
     margin-bottom: 80px;
     width: 100%; /* Asegúrate de que ocupe todo el ancho */
@@ -268,6 +266,10 @@ footer{
     justify-content: center;
 }
 
+
+.footer-contact{
+margin-top: 17.5%;
+}
 .Wine_Bar{
     display: flex;
     justify-content:flex-start;
@@ -281,12 +283,27 @@ footer{
 /* Estilos para los íconos de redes sociales */
 .social-media-icons {
     display: flex;
+    
     gap: 10px;
-    margin-left: 3%;
+    margin-left: 10%;
     /*justify-content: center; /* Esto centrará los íconos dentro de su celda */
 }
 
 .social-media-icons a img {
     width: auto;
-    height: 50px;
+    height: 30px;
+}
+
+/* Media query para dispositivos móviles */
+@media (max-width: 768px) {
+    .social-media-icons a img {
+        height: 20px; /* Nueva altura para dispositivos móviles */
+    }
+    .image-container2 img {        
+        border-radius: 50px;
+    }
+    .footer-logo img, .Wine_Bar img {
+        width: auto; /* O un tamaño específico si es necesario */
+        height: 10%; /* Ajusta esto según el tamaño deseado */
+    }
 }
