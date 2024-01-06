@@ -60,7 +60,7 @@ header {
     transition: color 0.3s;
     vertical-align: middle;
     font-family: 'Ciutadella';
-    font-size: larger;
+    font-size: 20px;
 }
 @font-face {
     font-family: 'Ciutadella';
