@@ -49,10 +49,12 @@ header {
 .logo img {
     width: 30%;
     background-color: transparent;
+    margin-top: 1%;
 }
 
 /* Estilos para la lista de navegación y elementos de la lista */
 .nav-list {
+    margin-top: 1%;
     text-decoration: none;
     list-style: none;
     display: flex;
@@ -134,7 +136,7 @@ main {
 /* Estilos para el contenedor de la imagen */
 .image-container {
     width: 90%;
-    margin-top: 1%;
+    margin-top: 0%;
     text-align: center;
 }
 

@@ -155,9 +155,9 @@ main {
 .Video {
     position: relative;
     margin-top: 10%;
-    width: 90%;
+    width:50%;
     margin: auto;
-    padding-bottom: 56.25%; /* Esta es la proporción para un video 16:9 */
+    padding-bottom: 28.125%; /* Esta es la proporción para un video 16:9 */
 }
 
 .Video iframe {
