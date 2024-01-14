@@ -247,3 +247,24 @@ margin-top: 17.5%;
         background-color: transparent;
     }
 }
+
+
+.boton-Incribirse_Fotter{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10%;
+}
+.boton-Incribirse_Fotter img{
+    width: 40%;
+    margin-bottom: 2%;
+}
+
+.boton-Incribirse_Fotter:hover img {
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño */
+    transition: transform 0.3s ease; /* Efecto suave */
+}
+
+.social-media-icons:hover img {
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño */
+    transition: transform 0.3s ease; /* Efecto suave */
+}
