@@ -16,6 +16,8 @@ header {
 .navbar {
     background-color: transparent;
     width: 90%;
+    margin-left: 5.5%;
+    margin-top: 1%;
     top: 0;
     left: 5%;
     right: 0;
@@ -49,6 +51,7 @@ header {
 .logo img {
     width: 30%;
     background-color: transparent;
+    margin-top: 1%;
 }
 
 /* Estilos para la lista de navegación y elementos de la lista */

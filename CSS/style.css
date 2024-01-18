@@ -16,6 +16,8 @@ header {
 .navbar {
     background-color: transparent;
     width: 90%;
+    margin-left: 5.5%;
+    margin-top: 1%;
     top: 0;
     left: 5%;
     right: 0;
@@ -100,7 +102,7 @@ header {
 }
 
 .surf-training .submenu li {
-    margin-right: 15px; /* Añade padding a la derecha de cada elemento (ajusta según tus preferencias) */
+    margin-right:1%; /*15px;*/ /* Añade padding a la derecha de cada elemento (ajusta según tus preferencias) */
     list-style: none; /* Elimina las viñetas */
 }
 
@@ -112,7 +114,7 @@ header {
 /* Estilos para el símbolo personalizado */
 .custom-symbol {
     font-size: 14px; /* Ajusta el tamaño del símbolo según tus preferencias */
-    margin-left: 5px; /* Ajusta el espaciado entre el símbolo y el texto */
+    margin-left: 100%; /* Ajusta el espaciado entre el símbolo y el texto */
 }
 
 /* Estilos para los elementos de la lista en el submenu de "Surf Training" */
@@ -270,13 +272,19 @@ footer{
     justify-content: center;
 }
 
+
+
+
+
+
 .boton-Incribirse_Fotter{
     display: flex;
     justify-content: flex-start;
     margin-left: 10%;
+    width: 35%;
 }
 .boton-Incribirse_Fotter img{
-    width: 40%;
+    width: 100%;
     margin-bottom: 2%;
 }
 
@@ -284,6 +292,7 @@ footer{
     transform: scale(1.05); /* Aumenta ligeramente el tamaño */
     transition: transform 0.3s ease; /* Efecto suave */
 }
+
 
 .footer-contact{
 margin-top: 17.5%;
@@ -335,5 +344,12 @@ margin-top: 17.5%;
     .logo img {
         width: 50px;
         background-color: transparent;
+    }
+    .boton-Incribirse_Fotter{
+        width: 50%;
+    }
+    .boton-Incribirse_Fotter img{
+        width: 30%;
+        width: 100%;
     }
 }
